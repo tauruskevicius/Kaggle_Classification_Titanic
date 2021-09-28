@@ -618,14 +618,9 @@ sub.to_csv('sub7.csv', index = False)
 #best submission 79.425
 
 
+######### MAKING THE PIPELINE. COULD NOT FIGURE OUT HOW TO SCALE AND ENCODE IN COLUMNTRANS
 
 
-
-
-
-
-
-# MAKING THE PIPELINE. COULD NOT FIGURE OUT HOW TO SCALE AND ENCODE IN COLUMNTRANS
 # #Encoding data
 # column_trans = make_column_transformer((OneHotEncoder(), ['Embarked', 'Sex', 'Title',\
 #                                                          'Fare_Range', 'Age_group']),\
@@ -800,11 +795,3 @@ sub.to_csv('sub7.csv', index = False)
 # gd.fit(X,y)
 # print(gd.best_params_)
 # print(gd.best_score_)
-
-
-
-
-
-
-
-
